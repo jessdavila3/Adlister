@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Created by jessedavila on 12/14/16.
  */
-@WebServlet(name = "AdsServlet", urlPatterns = "/ads/index")
+@WebServlet(name = "AdsServlet", urlPatterns = "/ads")
 public class
 AdsServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
